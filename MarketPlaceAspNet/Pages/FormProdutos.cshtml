@@ -1,0 +1,42 @@
+﻿@page
+@model MarketPlaceAspNet.Pages.FormProdutosModel
+@{
+    ViewData["Title"] = "Form Produtos";
+}
+
+<a class="btn btn-secondary mb-3" asp-page="/CrudProdutos">Voltar</a>
+<h2>@ViewData["Title"]</h2>
+
+<div class="container">
+        <div class="mb-3">
+            <label for="codigoProduto" class="form-label">Código</label>
+            <input type="text" class="form-control" id="codigoProduto" name="codigoProduto">
+        </div>
+
+        <div class="mb-3">
+            <label for="nomeProduto" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nomeProduto" name="nomeProduto">
+        </div>
+
+        <div class="mb-3">
+            <label for="vendedorProduto" class="form-label">Vendedor</label>
+            <input type="text" class="form-control" id="vendedorProduto" name="vendedorProduto">
+        </div>
+
+        <div class="mb-3">
+            <label for="estoqueProduto" class="form-label">Estoque</label>
+            <input type="number" class="form-control" id="estoqueProduto" name="estoqueProduto">
+        </div>
+
+        <div class="mb-3">
+            <label for="precoProduto" class="form-label">Preço</label>
+            <input type="text" class="form-control" id="precoProduto" name="precoProduto">
+        </div>
+
+        <div class="mb-3">
+            <label for="fotoProduto" class="form-label">Foto do Produto</label>
+            <input type="file" class="form-control" id="fotoProduto" name="fotoProduto">
+        </div>
+
+        <a href="/CrudProdutos" class="btn btn-primary">Salvar</a>
+</div>

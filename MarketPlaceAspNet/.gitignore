@@ -1,0 +1,73 @@
+# Arquivos de build
+bin/
+obj/
+out/
+
+# Arquivos de projeto do Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Arquivos de pacote
+**/[Pp]ackages/*
+**/[Pp]ackages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ferramentas
+**/.paket
+.paket/paket.exe
+
+# Arquivos de Resharper
+_resharper.caches/
+*.[Rr]e[Ss]harper
+
+# Arquivos de Teste
+TestResults/
+
+# Arquivos de Log
+*.log
+*.log.*
+
+# Outros
+.DS_Store
+*.swp
+*~
+*.bak
+*.tmp
+*.temp
+temp/
+*.[Cc]ache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+
+# Pacotes de Node no caso de uso com Angular, React, etc.
+node_modules/
+
+# Arquivos de configuração de publicação
+*.pubxml
+*.pubxml.user
+publishsettings.json
+
+# Arquivos do SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Arquivos do Azure
+azureStaging/
+azureProduction/
+
+# Arquivos específicos de ambiente
+appsettings.*.json
+
+# Arquivos de configuração de chave de usuário secreta
+*.secrets.json

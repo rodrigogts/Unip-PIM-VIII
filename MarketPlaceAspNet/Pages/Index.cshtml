@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-left">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+    
+    <h2>CRUDs</h2>
+    <ul>
+        <li><a asp-area="" asp-page="/CrudProdutos">Produtos</a></li>
+        <li>Vendedores</li>
+        <li>Clientes</li>
+    </ul>
+
+    <h2>Vendas</h2>
+    <ul>
+        <li>Carrinhos Ativos</li>
+        <li>Pedidos</li>
+    </ul>
+</div>

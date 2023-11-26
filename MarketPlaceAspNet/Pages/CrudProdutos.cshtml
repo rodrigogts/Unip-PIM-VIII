@@ -1,0 +1,147 @@
+﻿@page
+@model MarketPlaceAspNet.Pages.CrudProdutosModel
+@{
+    ViewData["Title"] = "CRUD Produtos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Formulário de Busca -->
+<div class="container mb-4">
+    <form class="row g-3">
+        <div class="col-auto">
+            <input type="text" class="form-control" placeholder="Texto de busca">
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Buscar</button>
+            <a class="btn btn-secondary mb-3" asp-page="/FormProdutos">Novo</a>
+        </div>
+    </form>
+</div>
+
+<!-- Tabela de Produtos -->
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Vendedor</th>
+                <th>Estoque</th>
+                <th>Preço</th>
+                <th>Editar</th>
+                <th>Excluir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Smartphone XYZ</td>
+                <td>TechStore</td>
+                <td>15</td>
+                <td>R$ 2.499,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Notebook Pro ABC</td>
+                <td>CompuWorld</td>
+                <td>8</td>
+                <td>R$ 5.299,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Tablet MaxiView 10"</td>
+                <td>QuickTech</td>
+                <td>20</td>
+                <td>R$ 1.999,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Monitor UltraWide 27"</td>
+                <td>DisplayPros</td>
+                <td>10</td>
+                <td>R$ 2.200,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Fones de Ouvido Bluetooth</td>
+                <td>SoundMagic</td>
+                <td>25</td>
+                <td>R$ 499,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Mouse Gamer XYZ</td>
+                <td>GamerTech</td>
+                <td>40</td>
+                <td>R$ 150,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>Teclado Mecânico RGB</td>
+                <td>KeyWorld</td>
+                <td>30</td>
+                <td>R$ 350,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>Smartwatch FitPro</td>
+                <td>HealthGear</td>
+                <td>18</td>
+                <td>R$ 899,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>009</td>
+                <td>Carregador Portátil 10000mAh</td>
+                <td>PowerPlus</td>
+                <td>50</td>
+                <td>R$ 120,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>010</td>
+                <td>Câmera Digital ProShot</td>
+                <td>PhotoMax</td>
+                <td>12</td>
+                <td>R$ 2.100,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>011</td>
+                <td>Webcam HD 1080p</td>
+                <td>ClearView</td>
+                <td>35</td>
+                <td>R$ 280,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+            <tr>
+                <td>012</td>
+                <td>Drone Explorer Air</td>
+                <td>FlyHigh</td>
+                <td>5</td>
+                <td>R$ 4.500,00</td>
+                <td><a href="/FormProdutos"><i class="bi bi-pencil-square"></i></a></td>
+                <td><i class="bi bi-trash-fill"></i></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
