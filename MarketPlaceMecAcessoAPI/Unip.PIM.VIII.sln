@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.34202.200
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unip.PIM.VIII", "Unip.PIM.VIII\MarketPlaceMecAcessoAPI.csproj", "{50FECE26-44E4-41D0-93CC-53C3961CAEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FECE26-44E4-41D0-93CC-53C3961CAEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FECE26-44E4-41D0-93CC-53C3961CAEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FECE26-44E4-41D0-93CC-53C3961CAEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FECE26-44E4-41D0-93CC-53C3961CAEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5685602-72D0-4720-9DA8-28DDA586FA68}
+	EndGlobalSection
+EndGlobal
